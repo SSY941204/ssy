@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 414624 */
+  src: url('https://at.alicdn.com/t/font_414624_dfa6abck7lt5u3di.eot');
+  src: url('https://at.alicdn.com/t/font_414624_dfa6abck7lt5u3di.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_414624_dfa6abck7lt5u3di.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_414624_dfa6abck7lt5u3di.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_414624_dfa6abck7lt5u3di.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: 120px;
+	background-color: #FFFFFF;
+}
+main{
+	width: 1040px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 185px;
+	height: 80px;
+	display: block;
+	margin-top: 20px;
+	float: left;
+}
+.tel{
+	width: 179px;
+	height: 46px;
+	display: block;
+	float: right;
+	margin-right: 18px;
+}
+nav{
+	width: 800px;
+	height: 50px;
+	float: right;
+	margin-right: 18px;
+	margin-top: 24px;
+}
+.div-nav{
+	height: 50px;
+	float: right;
+	position: relative;
+	
+}
+.nav-zi{
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	line-height: 50px;
+	float: left;
+	margin-right: 20px;
+	display: block;
+}
+.nav-zi1{
+	margin-right: 0;
+}
+.nav-zi:hover{
+	color:#000000;
+}
+
+
+
+/* banner开始 */
+#banner{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+#banner .bannerbox{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	cursor: pointer;
+}
+#banner .bannerimg1{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/1.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	z-index:900;
+	transition: all 1s;
+}
+
+#banner .bannerimg2{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/28.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+
+#banner .iconfont{
+	width: 71px;
+	height: 71px;
+	background-color: rgba(181, 181, 181, 0.6 );
+	border-radius: 5px;
+	position: absolute;
+	top: 215px;
+	font-size: 38px;
+	color: #fff;
+	line-height: 71px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	transition: all 1s;
+	z-index: 9999;
+	user-select: none;
+}
+#banner .button1{
+	left: 13px;
+}
+#banner .button2{
+	right: 13px;
+}
+#banner .button1:hover{
+	background: rgba(149, 149, 149, 1);
+}
+#banner .button2:hover{
+	background: rgba(149, 149, 149, 1);
+}
+
+/* 内容开始 */
+.content{
+	width: 100%;
+	height: 260px;
+	background-color: #FFFFFF;
+}
+.content .box{
+	width: 100%;
+	height: 260px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.two{
+	position: relative;
+}
+.content-tupian1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all .5s;
+}
+.content-tupian1:hover{
+	opacity: 1;
+}
+
+
+
+
+/* 展示开始 */
+.anli{
+	width: 100%;
+	height: 609px;
+	background-color: #DBDBDB;
+}
+.img-anli{
+	width: 215px;
+	height: 115px;
+	margin: 0 auto;
+}
+p:nth-child(2){
+	height: 23px;
+	margin-top: 20px;
+	text-align: center;
+}
+p:nth-child(3){
+	height: 23px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.anli-zi1{
+	font-size: 14px;
+	color: #666666;
+	line-height: 23px;
+}
+.anli-zi2{
+	font-size: 12px;
+	color: #707070;
+	line-height: 23px;
+}
+.big-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.one{
+	position: relative;
+}
+
+.big-box .img-anli{
+	width: 195px;
+	height: 325px;
+}
+.anli-tupian1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+.anli-tupian1:hover{
+	opacity: 1;
+}
+.anli-tupian2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+.anli-tupian2:hover{
+	opacity: 1;
+}
+
+
+
+
+/* 关于我们开始 */
+.about{
+	width: 100%;
+	height: 505px;
+	background: url("../img/14.png") center/cover;
+}
+.about p{
+	width: 100%;
+	margin-top: 130px;
+	text-align: center;
+}
+.about .yi{
+	font-size: 16px;
+	color:#666666 ;
+	line-height: 25px;
+}
+.about .er{
+	font-size: 14px;
+	color:#666666 ;
+	line-height: 25px;
+}
+.about-zi{
+	margin-top: 60px;
+	width: 100%;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: center;
+	color: #000000;
+}
+.about-zi span:nth-child(3),.about-zi span:nth-child(7),.about-zi span:nth-child(9){
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+/* 服务流程开始 */
+.fuwu{
+	width: 100%;
+	height: 303px;
+	background-color: #FFFFFF;
+}
+.img-fuwu{
+	width: 215px;
+	height: 115px;
+	margin: 0 auto;
+}
+.fuwu-zi{
+	height: 29px;
+	margin-top: 48px;
+	text-align: center;
+}
+.fuwu-zi .iconfont{
+	font-size: 22px;
+	line-height: 29px;
+}
+.fuwu-zi span{
+	font-size: 18px;
+	line-height: 29px;
+}
+
+
+
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 202px;
+	background-color: #2D3237;
+	padding-bottom: 15px;
+}
+.erweima{
+	width: 125px;
+	height: 125px;
+	background-color: green;
+	float: right;
+	margin-top: 26px;
+}
+.dibu main{
+	position: relative;
+}
+.img-erweima{
+	width: 100%;
+	height: 100%;
+}
+.dibu-wenzi{
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	bottom: 11px;
+	text-align: center;
+}
+.dibu-wenzi span{
+	line-height: 25px;
+	font-size: 12px;
+	color: #999999;
+}

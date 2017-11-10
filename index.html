@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--WOW动态css-->
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <!--幻灯片JS-->
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/webstyle.css" type="text/css"/>
+
+<body>
+<div class="wrapper"></div>
+<div id="fullpage">
+    <div class="section" id="s1">
+        <div class="container ">
+            <div class="p1-tit02"></div>
+            <div class="p1-tit03"></div>
+        </div>
+        <div class="bg" id="bg1"></div>
+        <div class="bg" id="bg2"></div>
+        <div class="bg" id="bg3"></div>
+    </div>
+
+    <div class="section" id="s2">
+        <iframe src="img/html5-hudei20151104/index.html" frameborder="0" id="iframe"></iframe>
+        <div class="container pos" style="z-index:999">
+            <div class="p2-tit tit"></div>
+            <div class="p2-tit2 tit2"></div>
+            <div class="p2-list">
+                <ul>
+                    <li class="down1 down"></li>
+                    <li class="down2 down"></li>
+                    <li class="down3 down"></li>
+                    <li class="down4 down"></li>
+                    <li class="down5 down"></li>
+                    <li class="down6 down"></li>
+                    <li class="down7 down"></li>
+                    <li class="down8 down"></li>
+                    <li class="down9 down"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+            <div class="xian"></div>
+            <div class="p2-text">Hello everyone, my hometown in Qinghai Xining, but I was in Shanxi, an undergraduate
+                student at Taiyuan Normal University, I majored in computer science and technology, in college, I
+                learned much knowledge about the front, although the experience is not enough, but I will continue to
+                progress in learning to enrich their experience, will make oneself more outstanding......
+            </div>
+        </div>
+        <div class="bg" id="bg4"></div>
+    </div>
+
+    <div class="section" id="s4">
+        <div class="container pos">
+            <div class="p2-tit p4-tit tc"></div>
+            <div class="p2-tit2 p4-tit2"></div>
+            <div class="p4-list">
+                <ul class="li">
+                    <li>
+                        <div class="p4-li1"><a href="project/ChinaMobile/index.html" target="_blank"><img src="img/3-1.jpg" alt=""></a></div>
+                    </li>
+                    <li>
+                        <div class="p4-li2"><a href="project/Tmall/tianmao.html" target="_blank"><img src="img/3-2.jpg" alt=""></a></div>
+                    </li>
+                    <li>
+                        <div class="p4-li3"><a href="project/Todolist/index.html" target="_blank"><img src="img/3-3.jpg" alt=""></a></div>
+                    </li>
+                    <li>
+                        <div class="p4-li4"><a href="project/TypingGame/dazi.html" target="_blank"><img src="img/3-4.jpg" alt=""></a></div>
+                    </li>
+                    <li>
+                        <div class= "p4-li5"><a href="project/GobangGame/wuziqi.html" target="_blank"><img src="img/3-6.jpg" alt=""></a></div>
+                    </li>
+                    <li>
+                        <div class= "p4-li6"><a href="project/qiyezhan/qiyezhan.html" target="_blank"><img src="img/3-5.jpg" alt=""></a></div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="s5">
+        <div class="mask">
+            <div class="container pos">
+                <div class="p5-tit"></div>
+                <div class="p5-tit2"> </div>
+
+            </div>
+                <div class="p5-tit3 p5-tit3-1"><a href="https://github.com/SSY941204"></a></div>
+                <div class="p5-tit3 p5-tit3-2"></div>
+                <div class="p5-tit3 p5-tit3-3"></div>
+                <div class="p5-text tc"><p class="tc">When you feel your way more and more bad that you are not far from
+                    success</p></div>
+            </div>
+         </div>
+    </div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/style.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $('#fullpage').fullpage({
+            'verticalCentered': false,
+            anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+        });
+    });
+
+    $(".p2-list li").mouseover(function () {
+        $(this).addClass("rotateOut animated")
+    });
+    $(".p2-list li ").mouseleave(function () {
+        $(this).removeClass("rotateOut animated")
+    });
+
+
+</script>
+</body>
+</html>
